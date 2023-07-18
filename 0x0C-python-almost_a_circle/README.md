@@ -1,47 +1,37 @@
-# 0x0C. Python - Almost a circle
+# 0x0C-python-almost_a_circle
 
-## Tasks
-### 0. If it's not tested it doesn't work
 
-### 1. Base class
+## models/
 
-### 2. First Rectangle
+### base.py
+This file contains a class ``` Base ```. It is the '*base*' of all other classes in this project. Main goal is to manage ``` id ``` attribute to avoid code duplication.
 
-### 3. Validate attributes
+### rectangle.py
+Contains the rectangle class that implements the base class. 
 
-### 4. Area first
+### square.py
+This file contains the a class Square that implements the class Rectangle.
 
-### 5. Display #0
+###  __init__.py
+This makes the folder a python module.
 
-### 6. __str__
+## tests/
+This folder contains the test files and folders of this project.
 
-### 7. Display #1
+### test_models/
+Test folder contains unittests for the model folder.
 
-### 8. Update #0
+#### test_base.py
+Test case  for ```base.py```.
 
-### 9. Update #1
+#### test_rectangle.py
+Test case for ```rectangle.py```.
 
-### 10. And now, the Square!
+#### test_square.py
+Test case for ```square.py```.
 
-### 11. Square size
+## *Resources*
 
-### 12. Square update
-
-### 13. Rectangle instance to dictionary representation
-
-### 14. Square instance to dictionary representation
-
-### 15. Dictionary to JSON string
-
-### 16. JSON string to file
-
-### 17. JSON string to dictionary
-
-### 18. Dictionary to Instance
-
-### 19. File to instances
-
-### 20. JSON ok, but CSV?
-
-### 21. Let's draw it
-
+* [Args and Kwargs in Python](https://alx-intranet.hbtn.io/rltoken/7gc6UzxSL81HcuAwklUbuQ)
+* [unittest module](https://alx-intranet.hbtn.io/rltoken/soictNXCPE18ASL3INoeew)
+* [Python Documentation](https://docs.python.org/)
